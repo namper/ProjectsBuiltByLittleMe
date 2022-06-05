@@ -1,0 +1,118 @@
+#daweret programa, romelic sam mtel ricxvs shoris airchevs umciress da dabechdavs mas.
+a=1,2,3
+print("umciresia ",min(a))
+
+-----------------------------------------------------------------------------------
+aq ver gavige ras nishnavs a=1,2,3 , min(a) mushaobs magram aq mindoda if da elseti dagewera,
+ase :
+'''
+sam ricxvs shoris umciresis dadgena , martivi xerxi
+'''
+a=int(input("A : "))
+b=int(input("B : "))
+c=int(input("C : "))
+min=a
+if min>b:
+    min=b
+if min>c:
+    min=c
+print(min)
+####################################################################################
+#ipovet or simbolos shoris umciresi. dabechdet misi mnishvneloba da kodi.
+a=ord("a")
+b=ord("B")
+if a>b:
+	print("a-simbolo metia , misi kodia: ",a)
+else:
+	print("B-simbolo metia , misi kodia: ",b)
+
+-------------------------------------------------------
+aq simboloebis shesadareblad araa aucilebeli , ricxvebshi gadaiyvano(ord()) ,
+pirdapir shegedzlo shegedarebina da umciresi gadageyvana ricxvshi(kodshi),
+ase programas agar sheasrulebineb zedmet samushaos.
+####################################################################################
+#ipovet sam simbolos shoris udidesi. dabechdet misi mnishvneloba da kodi.
+a=ord("a")
+b=ord("B")
+c=ord("c")
+if a>b>c:
+	print("a-simbolo metia , misi kodia: ",a)
+elif b>a>c:
+	print("B-simbolo metia , misi kodia: ",b)
+elif c>a>b :
+	print("c-simbolo metia , misi koida:",c)
+----------------------------------------------------
+es programa arazustia :
+a=3
+b=6
+c=4
+am ricxvebze sheamowme ;) , aqaca gaitvaliswine wina shecdomebi
+a=input("A : ")
+b=input("B : ")
+c=input("C : ")
+min=a
+if min>b:
+    min=b
+if min>c:
+    min=c
+print(min,"misi kodia : ",ord(min))
+################################################################################
+# klaviaturidan shemotanili sami simbolo dabechdet zrdadobis mixedvit.
+a=int(input("Shemoitanet I ricxvi"))
+b=int(input("Shemoitanet II ricxvi"))
+c=int(input("Shemoitanet III ricxvi"))
+z=[a,b,c]
+x=a+b+c-(max(z)+min(z))
+print(min(z), x ,max(z))
+-----------------------------------------------------------------
+aq simboloebzea laparaki da ara ricxvebze :( , 
+programa number tipis cvladebistvis gaq dawerili,
+tan gaitvaliswine shemdegshic rom rac treningze ar gviswavlia imas 
+nu gamoviyenebt davalebis werisas , radgan gavarjishdes goneba (min(), max()) ,
+magram imas ar vambob rom cudia win rom gviswreb ,
+anu imas vambob rom aq mtavari is ar iyo rom simboloebi zrdadobis mixedvit dagelagebina,
+mtavari isaa rom naswavli masala gamoiyeno praqtikashi
+############################################################################
+'''cnobilia, rom mocemuli otxi a, b, c, d ricxvidan sami tolia, erti ki gansxvavebuli.
+n cvlads unda mianichot gansxvavebuli ricxvis sidide. daweret programa da
+chaataret misi testireba sxvadasxva otxeulebistvis.'''
+a=int(input("a: "))
+b=int(input("b: "))
+c=int(input("c: "))
+d=int(input("d: "))
+n=0
+if a==b==c!=d:
+	n=d
+	print("d gansxvavebulia ",n)
+elif a==b==d!=c:
+	n=c
+	print("c gansxvavebulia ",n)
+elif a==d==c!=b:
+	n=b
+	print("b gansxvavebulia ",n)
+elif d==b==c!=a:
+	n=a
+	print("a gansxvavebulia ",n)
+-----------------------------------------------------------
+ase sheidzleba dagewera asec :
+a=int(input("a: "))
+b=int(input("b: "))
+c=int(input("c: "))
+d=int(input("d: "))
+if a==b==c:
+	n=d
+	print("d gansxvavebulia ",n)
+elif a==b==d:
+	n=c
+	print("c gansxvavebulia ",n)
+elif a==d==c:
+	n=b
+	print("b gansxvavebulia ",n)
+else:
+	n=a
+	print("a gansxvavebulia ",n)
+##########################################################################
+davaleba 4 is , A da D savarjishoebi rato ar sheasrule ?
+kide davamate sami aocana da isinic gaakete,
+saerto jamshi kargia ase gaagrdzele sheni imedi maq ;) :D 
+nodosac exmarebi imedia ....

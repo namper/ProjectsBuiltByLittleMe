@@ -1,0 +1,60 @@
+def my_max(x):
+  max=x[0]
+  for i in x:
+    if i>max:
+      max=i
+  return max
+x=[1,22,31,4,54,6,76,8,9]
+#print(my_max(x))
+
+
+def my_pow(x,y):
+	return x**y
+
+def my_islower(str):
+	for i in str:
+		if "A"<=i<="Z":
+			return False
+	return True
+
+#print(my_islower(""))
+x=""
+def my_len(x):
+	s=0
+	for i in x:
+		s+=1
+	return s
+
+#print(my_len(x))
+
+# print(ord("A"),ord("a"))
+
+def my_find(str1,str2):
+	if str2 in str1:
+		i=0
+		while i<len(str1):
+			if str1[i]==str2[0] and str1[i:(i+len(str2))] == str2:
+				return i
+			i+=1
+	return "Not find"
+
+
+
+def my_split(str1,x):
+	global str1
+	lst=[]
+	i=0
+	while i < len(str1):
+		if str1[i]==x:
+			
+			lst+=[str1[:i]]
+			str1=str1[i+1:]
+		
+		i+=1
+	return lst
+
+
+str1="I love Python"
+str2=" "
+print(str1)
+print(my_split(str1,str2))

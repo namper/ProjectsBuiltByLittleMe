@@ -1,0 +1,19 @@
+1. person = {"name":"John Smith",
+          "age":23,
+          "companies":["id software","Crytek","ubisoft"],
+          "favorite_ninja_turtle":"Leonardo",
+          "family":{
+              "mother":"Melinda Smith",
+              "father":"Samuel Smith",
+              "wife":"Samantha Smith",
+              "brothers":["Caprio Gentile","Gordon Freeman"]
+                         }
+             }
+
+person- cvladidan amoiget sachiro simboloebi da aawyet   --->   Leonardo diCaprio , 
+davaleba shefasdeba 50 qulit
+
+
+2.dawereT programa romelic miigebs ori mteli(int) tipis ricxvebs cvlads ,
+sheqmnis axla cvlads da mas mianichebs wina ori cvladis jams,
+shemdeg dabechdavs mas

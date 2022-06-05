@@ -1,0 +1,5 @@
+დამატებითი მასალა (tkinter): 
+
+http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/index.html
+
+ისწავლეთ canvas -ის ობიექტები!!!

@@ -1,0 +1,21 @@
+import smtplib
+fromaddr = 'tqveniimeili@gmail.com'
+toaddrs  = 'visacugzavni@gmail.com'
+msg = msg = "\r\n".join([
+  "From: user_me@gmail.com",
+  "To: user_you@gmail.com",
+  "Subject: Just a message",
+  "",
+  "aq chawer teqsts"
+  ])
+username = 'tqveniimeili@gmail.com'
+password = ''
+server = smtplib.SMTP('smtp.gmail.com:587')
+server.ehlo()
+server.starttls()
+server.login(username,password)
+server.sendmail(fromaddr, toaddrs, msg)
+server.quit()
+
+
+https://www.google.com/settings/security/lesssecureapps

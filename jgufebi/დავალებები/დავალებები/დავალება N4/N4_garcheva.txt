@@ -1,0 +1,194 @@
+a=int(input('enter number'))
+i=1
+j=0 
+for n in range(a):
+    print(' '*(a-i),'#'*i,'#'*i)
+    i+=1
+print()    
+for n in range(a):
+    print(' '*(j),'#'*(a-j),'#'*(a-j))
+    j+=1
+    
+'''
+       # #
+      ## ##
+     ### ###
+    #### ####
+   ##### #####
+  ###### ######
+ ####### #######
+######## ########
+
+######## ########
+ ####### #######
+  ###### ######
+   ##### #####
+    #### ####
+     ### ###
+      ## ##
+       # #
+'''
+===============================================================================
+
+f=1
+for n in range(int(input("enter number : "))):
+    for m in range(f):
+        print(m,end="")
+    f+=1
+    print()
+
+'''
+0
+01
+012
+0123
+01234
+012345
+0123456
+01234567
+012345678
+0123456789
+'''
+
+==================================================================================
+
+i=1
+j=0
+a=int(input("enter number: "))
+for n in range(a):
+    print(' '*(a-i),end="")
+    for n in range(i):
+        print(n,end="")
+    for n in range(j):
+        print(j-n-1,end="")
+    print()
+    i+=1
+    j+=1
+j=0
+for n in range(a):
+    print(' '*(j+1),end="")
+    for n in range(a-j-2):
+        print(n,end="")
+    for n in range(a-j-1):
+        print (a-j-2-n,end="")
+    print()
+    j+=1
+'''
+enter number: 10
+         0
+        010
+       01210
+      0123210
+     012343210
+    01234543210
+   0123456543210
+  012345676543210
+ 01234567876543210
+0123456789876543210
+ 01234567876543210
+  012345676543210
+   0123456543210
+    01234543210
+     012343210
+      0123210
+       01210
+        010
+         0
+'''
+============================================================
+i=1
+j=0
+a=int(input("enter number: "))
+for n in range(a):
+    print(' '*2*(a-i),end="")
+    for n in range(i):
+        print(n,'',end="")
+    for n in range(j):
+        print(j-n-1,'',end="")
+    print()
+    i+=1
+    j+=1
+j=0
+k=0
+for n in range(a):
+    print(' '*(j+2+k),end="")
+    for n in range(a-j-2):
+        print(n,'',end="")
+    for n in range(a-j-1):
+        print (a-j-2-n,'',end="")
+    print()
+    j+=1
+    k+=1
+
+'''
+enter number: 10
+                  0 
+                0 1 0 
+              0 1 2 1 0 
+            0 1 2 3 2 1 0 
+          0 1 2 3 4 3 2 1 0 
+        0 1 2 3 4 5 4 3 2 1 0 
+      0 1 2 3 4 5 6 5 4 3 2 1 0 
+    0 1 2 3 4 5 6 7 6 5 4 3 2 1 0 
+  0 1 2 3 4 5 6 7 8 7 6 5 4 3 2 1 0 
+0 1 2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 1 0 
+  0 1 2 3 4 5 6 7 8 7 6 5 4 3 2 1 0 
+    0 1 2 3 4 5 6 7 6 5 4 3 2 1 0 
+      0 1 2 3 4 5 6 5 4 3 2 1 0 
+        0 1 2 3 4 5 4 3 2 1 0 
+          0 1 2 3 4 3 2 1 0 
+            0 1 2 3 2 1 0 
+              0 1 2 1 0 
+                0 1 0 
+                  0 
+'''
+
+
+#########################################################
+1)
+'''
+daweret programa romelic shekrebs klaviaturidan shetanil ricxvebis,
+sanam mati jami ar gaxdeba atis jeradi ,da dabechdos jami
+ogond samis jeradi ricxvebi ar gaitvaliswinos jamshi
+'''
+s=0
+while True:
+	a=int(input("shemoitanet ricxvi : "))
+	if a%3!=0:
+		s+=a
+	else:
+		print("gamotova")
+	if s%10==0:
+		break
+
+print("shemotanili ricxvebis jami s = ",s)
+
+__________________________________________________________
+2)
+'''
+daweret programa romelshic shevitant klaviaturidan m da n ricxvebs ,
+da datvlis am ricxvebs shoris shvidis jeradi ricxvebis jams, da dabechdavs mas
+'''
+m=int(input("m =: "))
+n=int(input("n =: "))
+s=0
+for i in range(m,n+1):
+	if i%7==0:
+		s+=i
+print('jami : ',s)
+____________________________________________________________
+3)
+'''
+daweret programa romelic daitvlis klaviaturidan shetanil sityvashi,
+didi asoebi ufro metia tu patara
+'''
+a=input("shemoitanet sityva : ")
+s_didi=s_patara=0
+for i in a:
+	if "a"<=i<="z":
+		s_patara+=1
+	elif "A"<=i<="Z":
+		s_didi+=1
+
+print("didi asoebis raodenoba : ",s_didi)
+print("patara asoebis raodenoba : ",s_patara)

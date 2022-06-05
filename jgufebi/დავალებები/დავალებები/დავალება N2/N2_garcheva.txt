@@ -1,0 +1,20 @@
+1)
+person = {"name":"John Smith",
+          "age":23,
+          "companies":["id software","Crytek","ubisoft"],
+          "favorite_ninja_turtle":"Leonardo",
+          "family":{
+              "mother":"Melinda Smith",
+              "father":"Samuel Smith",
+              "wife":"Samantha Smith",
+              "brothers":["Caprio Gentile","Gordon Freeman"]
+                         }
+             }
+print(person["favorite_ninja_turtle"],person["companies"][0][1]+person["companies"][0][0]+person["family"]["brothers"][0][0:7])
+
+2) 
+
+x=int(input("X= "))
+y=int(input("Y= "))
+z=x+y
+print(z)

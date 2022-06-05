@@ -1,0 +1,41 @@
+კოდის უკეთ სანახავად გადადით ლინკზე:
+http://pastebin.com/KL9ggPUK
+
+def my_join(lst1,obj):
+	str=""
+	for n in lst1:
+		str+=n
+		if n!=lst1[-1]:
+			str+=obj
+	return str
+
+
+
+def my_insert(lst1,obj,index=5):
+	return lst1[:index]+[obj]+lst1[index:]
+
+def my_pop(lst1,index=-1):
+	str=lst1[index]
+	del lis1[index]
+	return str
+
+def my_remove(lis1,obj):
+	del lis1[lis1.index(obj)]
+
+def my_reverse(lis1):
+	for i in range(len(lis1)//2):
+		lis1[i],lis1[-(i+1)]=lis1[-(i+1)],lis1[i]
+def my_sort(lis1):
+	sigrdze=len(lis1)
+	for i in range(sigrdze-1):
+		index=0
+		while index<sigrdze-1:
+			if lis1[index]>lis1[index+1]:
+				lis1[index],lis1[index+1]=lis1[index+1],lis1[index]
+			index+=1
+
+lst=["aleqsandre","mishiko","dato","aleqsandre","saba","beqa"]
+lst2=[8,9,7,4,10]
+object=""
+my_sort(lst2)
+print(lst2)

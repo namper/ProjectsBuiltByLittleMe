@@ -1,0 +1,23 @@
+1. klaviaturidan sheitanet ori mteli tipis ricxvi, erti ricxvi gayavit meoreze da shedegi dabechdet. tu gamyofi
+nulis tolia dabechdet shesabamisi gzavnili.
+
+2. klaviaturidan sheitanet mteli ricxvi k. gavzardot misi mnishvneloba 5jer, tu igi luwia, xolo
+tu kentia gavzardot 3jer da davbechdot.
+
+3. daweret programa, romelic sam mtel ricxvs shoris airchevs umciress da dabechdavs
+mas.
+
+4. ipovet or simbolos shoris umciresi. dabechdet misi mnishvneloba da kodi.
+
+5. ipovet sam simbolos shoris udidesi. dabechdet misi mnishvneloba da kodi.
+
+6. klaviaturidan shemotanili sami simbolo dabechdet zrdadobis mixedvit.
+
+
+7*. cnobilia, rom mocemuli otxi a, b, c, d ricxvidan sami tolia, erti ki gansxvavebuli.
+n cvlads unda mianichot gansxvavebuli ricxvis sidide. daweret programa da
+chaataret misi testireba sxvadasxva otxeulebistvis.
+
+8*. k cvlads mivanichot im meotxedis nomeri, romelshic zevs wertili A(x,y)
+(xy!=0). daweret programa da ganixilet shemtxvevebi: a) A(-1,3); b) A(2,-5);
+g) A(-4,-7); d) A(7,4).

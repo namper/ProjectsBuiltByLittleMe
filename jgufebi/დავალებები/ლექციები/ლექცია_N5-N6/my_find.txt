@@ -1,0 +1,13 @@
+def my_find(str1,str2):
+    print("Sdsd")
+    if str2 in str1:
+        i=0
+    print("dsaa")
+    while i<len(str1):
+	if i==str2[0] and str1[i:(i+len(str2))] == str2 :
+            return i
+        i+=1
+    return "Not find"
+str1="I love Python"
+str2="Love"
+my_find(str1,str2)

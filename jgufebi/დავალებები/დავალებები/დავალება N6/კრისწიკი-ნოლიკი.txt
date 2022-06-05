@@ -1,0 +1,40 @@
+კრისწიკი ნოლიკის კოდის სუკეთ სანახავად გადადით ლინკზე :
+http://pastebin.com/fBQgEQSy
+
+
+a={"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"}
+gasulebi=[]
+def cxrili(a):
+	print("-------------")
+	print("|",a["1"],"|",a["2"],"|",a["3"],"|")
+	print("-------------")
+	print("|",a["4"],"|",a["5"],"|",a["6"],"|")
+	print("-------------")
+	print("|",a["7"],"|",a["8"],"|",a["9"],"|")
+	print("-------------")
+
+def in_x(gasulebi):
+	x=input("x-is svlaa")
+	if not(x in gasulebi):
+		gasulebi+=[x]
+		a[x]="x"
+	else:
+		print("adgili dakavebulia")
+		in_x(gasulebi)
+def in_o():
+	x=input("o-is svlaa")
+	a[x]="o"	
+
+cxrili(a)
+i=1
+while i<=9:
+	in_x(gasulebi)
+	cxrili(a)
+	if i==9:
+		print("draw !!!!!!")
+		break
+	i+=1
+	
+	in_o()
+	cxrili(a)
+	i+=1

@@ -1,0 +1,12 @@
+'''
+sam ricxvs shoris umciresis dadgena , martivi xerxi
+'''
+a=int(input("A : "))
+b=int(input("B : "))
+c=int(input("C : "))
+min=a
+if min>b:
+    min=b
+if min>c:
+    min=c
+print(min)

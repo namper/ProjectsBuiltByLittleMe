@@ -1,0 +1,106 @@
+'''klaviaturidan sheitanet ori mteli tipis ricxvi, erti ricxvi gayavit meoreze da shedegi dabechdet. tu gamyofi
+nulis tolia dabechdet shesabamisi gzavnili.'''
+
+a=int(input("Shemoitanet pirveli ricxvi : "))
+b=int(input("Shemoitanet meore ricxvi : "))
+if b==0:
+	print("0ze gakofa ar sheidzleba")
+else:
+	c=a/b 
+	print("ganakofi= ",c)
+
+##################################################
+'''klaviaturidan sheitanet mteli ricxvi k. gavzardot misi mnishvneloba 5jer, tu igi luwia, xolo
+tu kentia gavzardot 3jer da davbechdot.'''
+k=int(input("Shemoitanet raime mteli ricxvi :"))
+if k%2==0:
+	k=k*5 #an k*=5
+elif a%3==0:
+	k=k*3 #an k*=3
+print(k)
+
+################################################
+#daweret programa, romelic sam mtel ricxvs shoris airchevs umciress da dabechdavs mas.
+a=int(input("A : "))
+b=int(input("B : "))
+c=int(input("C : "))
+min=a
+if min>b:
+    min=b
+if min>c:
+    min=c
+print(min)
+######################################################
+#ipovet or simbolos shoris umciresi. dabechdet misi mnishvneloba da kodi.
+a=input("pirveli simbolo")
+b=input("meore simbolo")
+if a>b:
+	print("a-simbolo metia , misi kodia: ",ord(a))
+else:
+	print("B-simbolo metia , misi kodia: ",ord(b))
+##################################################
+#ipovet sam simbolos shoris udidesi. dabechdet misi mnishvneloba da kodi.
+a=input("A : ")
+b=input("B : ")
+c=input("C : ")
+max=a
+if max<b:
+    max=b
+if max<c:
+    max=c
+print(max,"misi kodia : ",ord(max))
+##########################################################
+klaviaturidan shemotanili sami simbolo dabechdet zrdadobis mixedvit.
+a=input("A : ")
+b=input("B : ")
+c=input("C : ")
+
+if a>b:
+	a,b=b,a
+if b>c:
+	b,c=c,b
+if a>b:
+	a,b=b,a
+print(a,b,c)
+#########################################################
+'''cnobilia, rom mocemuli otxi a, b, c, d ricxvidan sami tolia, erti ki gansxvavebuli.
+n cvlads unda mianichot gansxvavebuli ricxvis sidide. daweret programa da
+chaataret misi testireba sxvadasxva otxeulebistvis.'''
+a=int(input("a: "))
+b=int(input("b: "))
+c=int(input("c: "))
+d=int(input("d: "))
+if a==b==c:
+	n=d
+	print("d gansxvavebulia ",n)
+elif a==b==d:
+	n=c
+	print("c gansxvavebulia ",n)
+elif a==d==c:
+	n=b
+	print("b gansxvavebulia ",n)
+else:
+	n=a
+	print("a gansxvavebulia ",n)
+#############################################################
+'''k cvlads mivanichot im meotxedis nomeri, romelshic zevs wertili A(x,y)
+(xy!=0). daweret programa da ganixilet shemtxvevebi: a) A(-1,3); b) A(2,-5);
+g) A(-4,-7); d) A(7,4).'''
+x=int(input("sheikvanet x certilis kordinati"))
+y=int(input("sheikvanet y certilis kordinati"))
+#tu x dadebitia da y dadebitia 1 A(7,4)
+if x>0 and y>0:
+	k="I meotxedi"
+	print(k)
+#tu x dadebitia da y uarkofitia 4 A(2,-5)
+if x>0 and y<0:
+	k="IV meotxedi"
+	print(k)
+#tu x uarkofitia da y dadebitia 2 A(-1,3)
+if x<0 and y>0:
+	k="II meotxedi"
+	print(k)
+#tu x uarkofitia da y uarkofitia 3 A(-4,-7)
+if x<0 and y<0:
+	k="III meotxedi"
+	print(k)
